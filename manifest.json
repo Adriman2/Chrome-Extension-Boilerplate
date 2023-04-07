@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Sample Chrome Extension using Firebase",
+  "version": "0.1",
+  "description": "Boilerplate code",
+  "permissions": ["activeTab"],
+  "externally_connectable": {
+    "matches": [ "*://*/*"]
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },"action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["popup.js", "content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/firebase/firebase-app.js",
+        "/firebase/firebase-firestore.js",
+        "/firebase/firebase-database.js"
+      ],
+      "matches": ["https://example.com/*"],
+      "crossorigin": "use-credentials"
+    }
+  ]
+}
