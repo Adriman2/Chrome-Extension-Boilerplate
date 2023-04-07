@@ -41,7 +41,7 @@ function addData(data) {
 
 If you have any suggestions or improvements, please feel free to create a pull request or contact me.
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/your_twitter_username?style=social)](https://twitter.com/AdrianPatziF)
+[![Twitter Follow](https://img.shields.io/twitter/follow/AdrianPatziF?style=social)](https://twitter.com/AdrianPatziF)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&labelColor=blue&link=https://www.linkedin.com/in/adrian-patzi/)](https://www.linkedin.com/in/adrian-patzi/)
 
 
