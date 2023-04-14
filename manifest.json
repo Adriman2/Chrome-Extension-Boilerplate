@@ -25,16 +25,5 @@
   ],
   "icons": {
     "48": "icon.png"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "/firebase/firebase-app.js",
-        "/firebase/firebase-firestore.js",
-        "/firebase/firebase-database.js"
-      ],
-      "matches": ["https://example.com/*"],
-      "crossorigin": "use-credentials"
-    }
-  ]
+  }
 }
