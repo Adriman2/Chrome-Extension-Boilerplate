@@ -3,7 +3,6 @@
   "name": "Sample Chrome Extension using Firebase",
   "version": "0.1",
   "description": "Boilerplate code",
-  "permissions": ["activeTab"],
   "externally_connectable": {
     "matches": [ "*://*/*"]
   },
